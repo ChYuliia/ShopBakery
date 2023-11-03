@@ -5,34 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern Bakery</title>
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="#">
+        <a href="/">
           <img src="./img/logo.svg" alt="Modern bakery logo" />
         </a>
         <ul>
-          <li><a href="#">Franchise</a></li>
-          <li><a href="#">Our Traditions</a></li>
-          <li><a href="#">Formats</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a class="link" href="#tradition-section">Our Traditions</a></li>
+          <li><a class="link" href="#chefs-section">Chefs</a></li>
+          <li><a class="link" href="#formats-section">Formats</a></li>
+          <li><a class="link" href="#contacts-section">Contacts</a></li>
         </ul>
       </nav>
-      <button type="button">Request a call</button>
+      <button class="button" type="button">Request a call</button>
     </header>
     <main>
       <section>
-        <h1>Modern Bakery</h1>
+        <h1 class="hero-title"><span class="accent">Modern</span> Bakery</h1>
       </section>
-      <section>
-        <ul>
+      <section id="tradition-section">
+        <ul class="advantages-list">
           <li>Great demand in the market</li>
           <li>Affordable formats</li>
           <li>Experienced management team</li>
         </ul>
-        <h2>A new format of traditions</h2>
+        <h2 class="section-title">A new format of traditions</h2>
         <p>
           <span>shop bakery</span> is a bakery that took all the best and
           preserved the taste of traditional baking and the naturalness of the
@@ -48,8 +49,10 @@
           alt="The Baker-man looks at the bread with a smile"
         />
       </section>
-      <section>
-        <h2>Our best chefs</h2>
+      <section id="chefs-section">
+        <h2 class="section-title">
+          Our best <span class="accent">chefs</span>
+        </h2>
         <ul>
           <li>
             <article>
@@ -75,8 +78,8 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Formats</h2>
+      <section id="formats-section">
+        <h2 class="section-title">Formats</h2>
         <ul>
           <li>
             <article>
@@ -95,8 +98,16 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Join a network of bakeries</h2>
+      <section id="contacts-section">
+        <h2 class="section-title">Join a network of bakeries</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.887346620257!2d-84.16147092446921!3d39.60722010451158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88408e935dba8feb%3A0xa0b3c249715dc10f!2s48%20Marco%20Ln%2C%20Centerville%2C%20OH%2045458!5e0!3m2!1sru!2sus!4v1695852604064!5m2!1sru!2sus"
+          width="603"
+          height="595"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
     <footer>
@@ -136,7 +147,7 @@
           </li>
         </ul>
         <a href="#" target="_blank">Privacy Policy</a>
-        <p>© . All Rights Reserved Modern Bakery</p>
+        <p>&copy; All Rights Reserved Modern Bakery</p>
       </address>
     </footer>
   </body>
